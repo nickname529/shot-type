@@ -1,14 +1,14 @@
 import Link from "next/link";
 
 const navItems = [
-  { href: "/quiz", label: "취향 설문" },
-  { href: "/taste-test", label: "사진 테스트" },
+  { href: "/quiz", label: "카메라 추천" },
+  { href: "/cameras", label: "카메라 탐색" },
+  { href: "/taste-test", label: "사진 취향 테스트" },
   { href: "/results", label: "추천 결과" },
-  { href: "/cameras", label: "바디 탐색" },
   { href: "/lenses", label: "렌즈 탐색" },
   { href: "/film-cameras", label: "필름카메라" },
-  { href: "/films", label: "필름" },
-  { href: "/film-taste-test", label: "필름 테스트" },
+  { href: "/films", label: "필름 추천" },
+  { href: "/film-taste-test", label: "나에게 맞는 필름 찾기" },
   { href: "/shops", label: "구매" },
   { href: "/labs", label: "현상소" },
   { href: "/compare", label: "비교" },
@@ -25,13 +25,13 @@ export function SiteHeader() {
         </Link>
         <nav className="hidden items-center gap-1 text-sm text-muted lg:flex">
           {navItems.map((item) => (
-            <Link key={item.href} href={item.href} className="rounded-lg px-3 py-2 transition hover:bg-white hover:text-ink">
+            <Link key={item.href} href={item.href} className="rounded-lg px-2.5 py-2 transition hover:bg-white hover:text-ink">
               {item.label}
             </Link>
           ))}
         </nav>
-        <Link href="/quiz" className="rounded-lg bg-ink px-4 py-2 text-sm font-medium text-white transition hover:bg-accent">
-          시작하기
+        <Link href="/quiz" className="rounded-lg bg-ink px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent">
+          카메라 찾기
         </Link>
       </div>
       <div className="flex gap-1 overflow-x-auto border-t border-line px-4 py-2 text-sm text-muted lg:hidden">

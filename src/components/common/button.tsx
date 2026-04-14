@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 
 const variants = {
   primary: "bg-ink text-white hover:bg-accent",
+  hero: "bg-coral text-white shadow-soft hover:bg-accent",
   secondary: "border border-line bg-white text-ink hover:border-ink",
   ghost: "bg-transparent text-ink hover:bg-white"
 };
