@@ -1,5 +1,14 @@
 # ShotType
 
+<!-- PROJECT_STATUS_2026_11 -->
+> [!IMPORTANT]
+> **현재 상태: 개발 보류 · 공개 프로토타입 (2026-11-01 기준)**  
+> 이 저장소는 사진 취향 기반 추천 제품의 과거 구현과 설계를 보여주는 공개 기록입니다. 현재 대표 프로젝트나 운영 중인 상용 서비스가 아니며, 가격·추천 데이터의 최신성, 실제 사용자 확보 또는 수익화를 보장하지 않습니다.  
+> **Status (English):** Paused prototype, retained publicly as an implementation record. Not an actively maintained or commercially launched product.  
+> 현재 활동과 검증된 작업은 [공식 포트폴리오](https://portfolio.webbe-b.com/)를 참조하세요.
+<!-- /PROJECT_STATUS_2026_11 -->
+
+
 사진 취향, 예산, 사용 목적, 휴대성, 렌즈 교환 여부를 함께 분석해 카메라 바디와 렌즈 조합을 추천하는 Next.js MVP입니다.
 
 ## 구현 범위
